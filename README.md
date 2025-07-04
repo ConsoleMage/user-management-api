@@ -15,3 +15,5 @@ When I asked GitHub Copilot to identify anything I might have missed—such as u
 I encountered a conflict between my logging middleware and error-handling middleware. GitHub Copilot suggested wrapping the logging logic in a `try...finally` block to ensure the response body stream is always restored. After applying this fix and running some tests, the issue was resolved.
 
 Initially, I was confused because I had registered the middleware in the correct order. GitHub Copilot explained that without a finally block, the logging middleware could "hijack" the response stream, preventing the error-handling middleware from sending a proper error response. The finally block ensures the original stream is restored even if an exception occurs, allowing error handling to function correctly.
+
+**Tech stack**: .NET, Visual Studio Code, C# Dev Kit, SonarQube, GitHub Copilot
