@@ -1,6 +1,6 @@
 # user-management-api
 
-This is the fifth peer-graded assignment for *Project: Building a Simple API with Copilot*, the graded assignment for Course 5 of 12 in the Microsoft Full-Stack Developer Professional Certificate program.
+This is the peer-graded assignment for *Back-End Development with .NET*, the graded assignment for Course 5 of 12 in the Microsoft Full-Stack Developer Professional Certificate program.
 
 ### ✍️ Activity 1: Writing and Enhancing API Code with Copilot
 
