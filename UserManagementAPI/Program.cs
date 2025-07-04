@@ -15,11 +15,10 @@ namespace UserManagementAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add authentication services
             builder.Services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "https://your-auth-server.com"; // e.g., IdentityServer or Auth0
+                    options.Authority = "https://your-auth-server.com";
                     options.Audience = "your-api-name";
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
