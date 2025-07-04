@@ -1,5 +1,7 @@
 # user-management-api
 
+This is the third peer-graded assignment for 'Project: Building a Simple API with Copilot,' which is Course 3 of 12 in the Microsoft Full-Stack Developer Professional Certificate program.
+
 ### ✍️ Activity 1: Writing and Enhancing API Code with Copilot
 
 GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then enhanced the API by prompting GitHub Copilot to include validation checks, making the code more robust and reliable.
