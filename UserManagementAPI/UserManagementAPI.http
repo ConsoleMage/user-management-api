@@ -1,0 +1,43 @@
+@UserManagementAPI_HostAddress = http://localhost:5258
+
+GET {{UserManagementAPI_HostAddress}}/users/
+Accept: application/json
+
+###
+
+GET {{UserManagementAPI_HostAddress}}/users/3
+Accept: application/json
+
+###
+
+POST {{UserManagementAPI_HostAddress}}/users/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Claudia"
+}
+
+###
+
+PUT {{UserManagementAPI_HostAddress}}/users/3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Catherine"
+}
+
+###
+
+DELETE {{UserManagementAPI_HostAddress}}/users/6
+Accept: application/json
+
+###
+
+DELETE {{UserManagementAPI_HostAddress}}/users/6
+Accept: application/json
+
+### Test simulated error endpoint
+GET {{UserManagementAPI_HostAddress}}/simulate-error
+Accept: application/json
