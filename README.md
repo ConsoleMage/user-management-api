@@ -6,7 +6,7 @@ GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then 
 🐞 Activity 2: Debugging API Code with Copilot
 When I asked GitHub Copilot to identify anything I might have missed—such as unhandled exceptions—it raised the issue of thread safety. After reviewing its suggestions, I implemented the solution line by line, taking time to understand each change Copilot proposed.
 
-![Middleware](https://github.com/user-attachments/assets/09f64ed0-a89e-48f8-8ab5-148e7f44dda7)
+![Debugging](https://github.com/user-attachments/assets/2ee150f5-bea7-4901-8937-43359627f31b)
 
 ⚙️ Activity 3: Implementing and Managing Middleware with Microsoft Copilot
 I encountered a conflict between my logging middleware and error-handling middleware. GitHub Copilot suggested wrapping the logging logic in a try...finally block to ensure the response body stream is always restored. After applying this fix and running some tests, the issue was resolved.
