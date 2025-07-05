@@ -1,6 +1,6 @@
 # user-management-api
 
-This is the peer-graded assignment for *Back-End Development with .NET*, which is the fifth course in a 12-part series in the Microsoft Full-Stack Developer Professional Certificate program.
+This is the peer-graded assignment for *Back-End Development with .NET*, which is the fifth course in a 12-course series in the Microsoft Full-Stack Developer Professional Certificate program.
 
 ### ✍️ Activity 1: Writing and Enhancing API Code with Copilot
 
