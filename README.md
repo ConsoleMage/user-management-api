@@ -1,6 +1,6 @@
 # user-management-api
 
-This is the peer-graded assignment for "Back-End Development with .NET," which is the fifth course in a 12-course series in the Microsoft Full-Stack Developer Professional Certificate program.
+This is the peer-graded assignment for "Back-End Development with .NET," the fifth course in a 12-course series in the Microsoft Full-Stack Developer Professional Certificate program.
 
 A project template for creating a RESTful Web API using ASP.NET Core controllers or minimal APIs, with optional support for OpenAPI and authentication.
 
