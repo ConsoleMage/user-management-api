@@ -4,15 +4,15 @@ This is the peer-graded assignment for "Back-End Development with .NET," the fif
 
 A project template for creating a RESTful Web API using ASP.NET Core controllers or minimal APIs, with optional support for OpenAPI and authentication.
 
-### ✍️ Activity 1: Writing and Enhancing API Code with Copilot
+## Activity 1: Writing and Enhancing API Code with Copilot
 
 GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then enhanced the API by prompting GitHub Copilot to include validation checks, making the code more robust and reliable.
 
-### 🐞 Activity 2: Debugging API Code with Copilot
+## Activity 2: Debugging API Code with Copilot
 
 When I asked GitHub Copilot to identify anything I might have missed, such as unhandled exceptions, it raised the issue of thread safety. After reviewing its suggestions, I implemented the solution line by line, taking time to understand each change GitHub Copilot proposed.
 
-### ⚙️ Activity 3: Implementing and Managing Middleware with Copilot
+## Activity 3: Implementing and Managing Middleware with Copilot
 
 ![Debugging](https://github.com/user-attachments/assets/adea6c8d-a13a-4321-908d-bdb84e9750f6)
 
