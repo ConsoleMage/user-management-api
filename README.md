@@ -10,7 +10,7 @@ GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then 
 
 ### 🐞 Activity 2: Debugging API Code with Copilot
 
-When I asked GitHub Copilot to identify anything I might have missed—such as unhandled exceptions—it raised the issue of thread safety. After reviewing its suggestions, I implemented the solution line by line, taking time to understand each change GitHub Copilot proposed.
+When I asked GitHub Copilot to identify anything I might have missed, such as unhandled exceptions, it raised the issue of thread safety. After reviewing its suggestions, I implemented the solution line by line, taking time to understand each change GitHub Copilot proposed.
 
 ### ⚙️ Activity 3: Implementing and Managing Middleware with Copilot
 
