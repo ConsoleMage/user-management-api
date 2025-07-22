@@ -20,4 +20,4 @@ I encountered a conflict between my logging middleware and error-handling middle
 
 Initially, I was confused because I had registered the middleware in the correct order. GitHub Copilot explained that without a finally block, the logging middleware could "hijack" the response stream, preventing the error-handling middleware from sending a proper error response. The finally block ensures the original stream is restored even if an exception occurs, allowing error handling to function correctly.
 
-**Tech stack**: .NET, Visual Studio Code, C# Dev Kit, REST Client, SonarQube for IDE, GitHub Copilot
+**Tech Stack**: .NET, Visual Studio Code, C# Dev Kit, REST Client, SonarQube for IDE, GitHub Copilot
