@@ -10,11 +10,11 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 
 ## Activity 1: Writing and Enhancing API Code with Copilot
 
-GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then enhanced the API by prompting GitHub Copilot to include validation checks, making the code more robust and reliable.
-
 In this activity, you will use Copilot to write and enhance API code for a User Management API. This project will give you practice writing code yourself and using Copilot to help. You’ll use Copilot to generate code and then enhance and test that code. 
 
 This is the first of three activities in which you will develop and code a back-end API project. The final output will be a working API project that you can use to demonstrate your understanding of back-end development.
+
+GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then enhanced the API by prompting GitHub Copilot to include validation checks, making the code more robust and reliable.
 
 ## Activity 2: Debugging API Code with Copilot
 
