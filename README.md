@@ -10,27 +10,25 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 
 ## Activity 1: Writing and Enhancing API Code with Copilot
 
-In this activity, you will use Copilot to write and enhance API code for a User Management API. This project will give you practice writing code yourself and using Copilot to help. You’ll use Copilot to generate code and then enhance and test that code. 
+(5pts) Did you create a GitHub repository for your project?
 
-This is the first of three activities in which you will develop and code a back-end API project. The final output will be a working API project that you can use to demonstrate your understanding of back-end development.
+(5pts) Does your code include CRUD endpoints for managing users like GET, POST, PUT, and DELETE?
+
+(5pts) Does your code include additional functionality like validation to process only valid user data? 
 
 > GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then enhanced the API by prompting GitHub Copilot to include validation checks, making the code more robust and reliable.
 
 ## Activity 2: Debugging API Code with Copilot
 
-In this activity, you will use Copilot to debug the code you’ve started for your API project. This project will give you practice reviewing code, debugging, and implementing fixes. You’ll use Copilot to discover issues and suggest changes to improve your code.
-
-This is the second of three activities in which you will develop and code a back-end API project. The final output will be a working API project that you can use to demonstrate your understanding of back-end development.
+(5pts) Did you use Copilot to debug your code?
 
 > When I asked GitHub Copilot to identify anything I might have missed, such as unhandled exceptions, it raised the issue of thread safety. After reviewing its suggestions, I implemented the solution line by line, taking time to understand each change GitHub Copilot proposed.
 
 ## Activity 3: Implementing and Managing Middleware with Copilot
 
-In this activity, you will use Copilot to create middleware for logging, authentication, and error handling and configure the middleware pipeline. This project will give you practice working with middleware, from implementation to management. Copilot can help with every step of this process. 
-
-This is the last of three activities in which you will develop and code a back-end API project. The final output will be a working API project that you can use to demonstrate your understanding of back-end development.
-
 ![Debugging](https://github.com/user-attachments/assets/adea6c8d-a13a-4321-908d-bdb84e9750f6)
+
+(5pts) Did you implement middleware into your project, such as logging or authentication middleware? 
 
 > I encountered a conflict between my logging middleware and error-handling middleware. GitHub Copilot suggested wrapping the logging logic in a `try...finally` block to ensure the response body stream is always restored. After applying this fix and running some tests, the issue was resolved.
 
