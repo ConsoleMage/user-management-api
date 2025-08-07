@@ -22,13 +22,13 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 
 ## Activity 2: Debugging API Code with Copilot
 
+![Debugging](https://github.com/user-attachments/assets/adea6c8d-a13a-4321-908d-bdb84e9750f6)
+
 (5pts) Did you use Copilot to debug your code?
 
 > The error handling and logging middleware had an issue where the original response stream was not properly restored if an exception occurred. This was fixed by using a `try...finally` block to ensure the original stream is always restored, preventing it from being disposed unexpectedly.
 
 ## Activity 3: Implementing and Managing Middleware with Copilot
-
-![Debugging](https://github.com/user-attachments/assets/adea6c8d-a13a-4321-908d-bdb84e9750f6)
 
 (5pts) Did you implement middleware into your project, such as logging or authentication middleware? 
 
