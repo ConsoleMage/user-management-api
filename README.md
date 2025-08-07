@@ -11,18 +11,20 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 ## Activity 1: Writing and Enhancing API Code with Copilot
 
 (5pts) Did you create a GitHub repository for your project?
+> https://github.com/ConsoleMage/user-management-api
 
 (5pts) Does your code include CRUD endpoints for managing users like GET, POST, PUT, and DELETE?
+> Yes.
 
 (5pts) Does your code include additional functionality like validation to process only valid user data? 
 
-> GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then enhanced the API by prompting GitHub Copilot to include validation checks, making the code more robust and reliable.
+> Yes. Null or empty names are not allowed, and names must contain only alphabetic characters.
 
 ## Activity 2: Debugging API Code with Copilot
 
 (5pts) Did you use Copilot to debug your code?
 
-> When I asked GitHub Copilot to identify anything I might have missed, such as unhandled exceptions, it raised the issue of thread safety. After reviewing its suggestions, I implemented the solution line by line, taking time to understand each change GitHub Copilot proposed.
+> The error handling and logging middleware had an issue where the original response stream was not properly restored if an exception occurred. This was fixed by using a `try...finally` block to ensure the original stream is always restored, preventing it from being disposed unexpectedly.
 
 ## Activity 3: Implementing and Managing Middleware with Copilot
 
@@ -30,8 +32,6 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 
 (5pts) Did you implement middleware into your project, such as logging or authentication middleware? 
 
-> I encountered a conflict between my logging middleware and error-handling middleware. GitHub Copilot suggested wrapping the logging logic in a `try...finally` block to ensure the response body stream is always restored. After applying this fix and running some tests, the issue was resolved.
-
-> Initially, I was confused because I had registered the middleware in the correct order. GitHub Copilot explained that without a finally block, the logging middleware could "hijack" the response stream, preventing the error-handling middleware from sending a proper error response. The finally block ensures the original stream is restored even if an exception occurs, allowing error handling to function correctly.
+> Yes, the code includes custom middleware for error handling and request/response logging.
 
 **Tech Stack**: ASP.NET Core, Visual Studio Code, C# Dev Kit, REST Client, SonarQube for IDE, GitHub Copilot
