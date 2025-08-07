@@ -4,6 +4,10 @@ This is the peer-graded assignment for "Back-End Development with .NET," the fif
 
 A project template for creating a RESTful Web API using ASP.NET Core controllers or minimal APIs, with optional support for OpenAPI and authentication.
 
+## Introduction
+
+You’ve been hired by TechHive Solutions to develop a User Management API for their internal tools. The HR and IT departments need an API that allows them to create, update, retrieve, and delete user records efficiently. Your task is to build the core functionality of the API, using Microsoft Copilot to scaffold, enhance, and test the code.
+
 ## Activity 1: Writing and Enhancing API Code with Copilot
 
 GitHub Copilot helped me quickly scaffold the structure for my CRUD API. I then enhanced the API by prompting GitHub Copilot to include validation checks, making the code more robust and reliable.
