@@ -1,5 +1,5 @@
 // (5pts) Did you create a GitHub repository for your project?
-// https://github.com/ConsoleMage/user-management-api
+// Yes. You can view it at https://github.com/ConsoleMage/user-management-api
 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -38,7 +38,7 @@ namespace UserManagementAPI
             var app = builder.Build();
 
             // (5pts) Did you use Copilot to debug your code?
-            // The error handling and logging middleware had an issue where the original 
+            // Yes. The error handling and logging middleware had an issue where the original 
             // response stream was not properly restored if an exception occurred. 
             // This was fixed by using a try...finally block to ensure the original stream 
             // is always restored, preventing it from being disposed unexpectedly.
@@ -133,4 +133,5 @@ namespace UserManagementAPI
         }
     }
 }
+
 
