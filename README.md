@@ -32,6 +32,6 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 
 (5pts) Did you implement middleware into your project, such as logging or authentication middleware? 
 
-> Yes, the code includes custom middleware for error handling and request/response logging.
+> Yes. The code includes custom middleware for error handling and request/response logging.
 
 **Tech Stack**: ASP.NET Core, Visual Studio Code, C# Dev Kit, REST Client, SonarQube for IDE, GitHub Copilot
