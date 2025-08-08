@@ -45,7 +45,7 @@ namespace UserManagementAPI
 
             // (5pts) Did you implement middleware into your project, such as logging or 
             // authentication middleware? 
-            // Yes, the code includes custom middleware for error handling and request/response logging.
+            // Yes. The code includes custom middleware for error handling and request/response logging.
             app.UseMiddleware<ErrorHandlingMiddleware>();
             app.UseMiddleware<RequestResponseLoggingMiddleware>();
             app.UseAuthentication();
@@ -62,6 +62,7 @@ namespace UserManagementAPI
 
             // (5pts) Does your code include CRUD endpoints for managing users like 
             // GET, POST, PUT, and DELETE?
+            // Yes.
             app.MapGet("/users", () =>
             {
                 lock (usersLock)
@@ -82,7 +83,7 @@ namespace UserManagementAPI
             .WithName("GetUserById");
 
             // (5pts) Does your code include additional functionality like validation to process only valid user data? 
-            // Null or empty names are not allowed, and names must contain only alphabetic characters.
+            // Yes. Null or empty names are not allowed, and names must contain only alphabetic characters.
             app.MapPost("/users", (User user) =>
             {
                 if (string.IsNullOrWhiteSpace(user.Name))
@@ -132,3 +133,4 @@ namespace UserManagementAPI
         }
     }
 }
+
