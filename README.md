@@ -11,7 +11,7 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 ## Activity 1: Writing and Enhancing API Code with Copilot
 
 (5pts) Did you create a GitHub repository for your project?
-> https://github.com/ConsoleMage/user-management-api
+> Yes. You can view it at https://github.com/ConsoleMage/user-management-api
 
 (5pts) Does your code include CRUD endpoints for managing users like GET, POST, PUT, and DELETE?
 > Yes.
@@ -26,7 +26,7 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 
 (5pts) Did you use Copilot to debug your code?
 
-> The error handling and logging middleware had an issue where the original response stream was not properly restored if an exception occurred. This was fixed by using a `try...finally` block to ensure the original stream is always restored, preventing it from being disposed unexpectedly.
+> Yes. The error handling and logging middleware had an issue where the original response stream was not properly restored if an exception occurred. This was fixed by using a `try...finally` block to ensure the original stream is always restored, preventing it from being disposed unexpectedly.
 
 ## Activity 3: Implementing and Managing Middleware with Copilot
 
