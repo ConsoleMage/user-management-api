@@ -11,7 +11,7 @@ You’ve been hired by TechHive Solutions to develop a User Management API for t
 ## Activity 1: Writing and Enhancing API Code with Copilot
 
 (5pts) Did you create a GitHub repository for your project?
-> Yes. You can view it at https://github.com/ConsoleMage/user-management-api
+> Yes. You can view it at https://github.com/ConsoleMage/user-management-api.
 
 (5pts) Does your code include CRUD endpoints for managing users like GET, POST, PUT, and DELETE?
 > Yes.
